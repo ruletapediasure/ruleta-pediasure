@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+/*body{
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}*/
+
+@font-face {
+  font-family: "Light";   /*Can be any text*/
+  src: local("SketchBlockBold"),
+    url("./SketchBlockBold.ttf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+  background: url('./img/game-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#main .img-ruleta {
+  width: 60%;
+  height: auto;
+  
+	transition: all 4s ease;
+	overflow-x: hidden
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#main .img-responsive {
+  width: 60%;
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+#main .img-apuntador {
+	display: inline-block;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
-@keyframes App-logo-spin {
+.swal-title
+{
+  font-family: "Light";
+  color:#5B108B;
+  font-size: 13rem;
+}
+
+.swal-button
+{
+  background-color: #5B108B;
+  font-size:4rem;
+}
+
+.swal-button:hover
+{
+  background-color: #5B108B !important;
+}
+
+.swal-button:focus
+{
+  background-color: #5B108B !important;
+  border-color: #5B108B !important;
+}
+
+.swal-modal
+{
+  width: 1300px;
+  height: 800px;
+}
+.swal-text
+{
+  font-size: 4rem;
+}
+
+.swal-footer{
+  margin-top: 8rem;
+  padding: 33px 25px;
+}
+
+.swal-title:not(:last-child)
+{
+  margin-bottom: 33px;
+  margin-top: 95px;
+}
+
+.swal-button-container {
+  margin: 20px 15px;
+}
+
+#btnAnimar {
+  background:none;
+  border:none; 
+  padding:none;
+}
+
+@keyframes infinite-spinning {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(1100deg);
   }
 }
