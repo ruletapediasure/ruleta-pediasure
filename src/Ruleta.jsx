@@ -19,7 +19,7 @@ const Ruleta = (props) => (
                 <button id="btnAnimar" disabled={props.animatedRuleta} onClick={props.animarEvent}>
                     <img  
                         src={apuntador} 
-                        style={{width:'45%', height:'auto'}}
+                        style={{width:'calc(2em + 2vw)', height:'auto'}}
                         alt="Apuntador"
                     />
                 </button>

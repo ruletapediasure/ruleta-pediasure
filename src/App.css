@@ -47,13 +47,13 @@ body {
 {
   font-family: "Light";
   color:#5B108B;
-  font-size: 13rem;
+  font-size: 11rem;
 }
 
 .swal-button
 {
   background-color: #5B108B;
-  font-size:4rem;
+  font-size:2rem;
 }
 
 .swal-button:hover
@@ -69,27 +69,27 @@ body {
 
 .swal-modal
 {
-  width: 1300px;
-  height: 800px;
+  width: 1000px;
+  height: 500px;
 }
 .swal-text
 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .swal-footer{
-  margin-top: 8rem;
-  padding: 33px 25px;
+  margin-top: 3rem;
+  padding: 30px 20px;
 }
 
 .swal-title:not(:last-child)
 {
-  margin-bottom: 33px;
-  margin-top: 95px;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .swal-button-container {
-  margin: 20px 15px;
+  margin: 18px 13px;
 }
 
 #btnAnimar {
