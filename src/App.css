@@ -47,7 +47,7 @@ body {
 {
   font-family: "Light";
   color:#5B108B;
-  font-size: 11rem;
+  font-size: 9rem;
 }
 
 .swal-button
@@ -84,7 +84,7 @@ body {
 
 .swal-title:not(:last-child)
 {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   margin-top: 20px;
 }
 
